@@ -148,7 +148,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a ,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -165,7 +165,7 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
+.d-bloc a:hover ,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -461,7 +461,16 @@ nav .caret {
     margin: 6px -5px 0 0;
     float: right;
 }
-
+.linkcontact{
+    color:black!important;
+    font-size:24px;
+    border:2px solid black;
+    background-color: transparent;
+   
+}
+.linkcontact:hover{
+    color:white!important;
+}
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -470,9 +479,7 @@ nav .caret {
 .mg-md, h2{
     color:white;
 }
-.bottomtext{
-    color:black;
-}
+
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -694,7 +701,9 @@ a {
     font-size: 38px;
     color:black;
 }
-
+.footertext{
+    color:black;
+}
 .hero-bloc-text-sub {
     font-size: 36px;
     color:black;
@@ -716,11 +725,13 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 800px;
-    margin: auto ;
+   margin-left:15px;
+   margin-right:15px;
+   padding:15px;
     color: black;
     font-size:18px;
     font-weight:600;
+
 }
 
 .h1 {
@@ -749,12 +760,14 @@ p {
 }
 .icon-md{
     transition: 200ms ease;
+  color:black;
 
 }
 
 .icon-md:hover{
     transform: scale(1.3);
     transition: 200ms ease;
+    color:white;
 }
 
 h2 {
