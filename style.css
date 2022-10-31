@@ -289,9 +289,7 @@ a:hover {
     font-size: 32px;
     
 }
-.sr-only{
-    display:none;
-}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -516,13 +514,14 @@ button {
     box-shadow: none;
 }
 
+
 .scrollToTop {
     width: 40px;
     height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-  
+    z-index:1 ;
     transition: all .3s ease-in-out;
 }
 
