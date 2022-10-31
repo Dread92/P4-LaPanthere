@@ -705,8 +705,11 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
