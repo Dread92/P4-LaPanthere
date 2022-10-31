@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
+    
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -29,8 +30,9 @@ a:hover {
 
 .bloc {
     width: 100%;
+    max-width:1800px;
     clear: both;
-    background: 50% 50% no-repeat;
+   margin: 0 auto;
     padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -285,8 +287,11 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    
 }
-
+.sr-only{
+    display:none;
+}
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -373,7 +378,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color:red;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -517,8 +522,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
-    z-index: 500;
+  
     transition: all .3s ease-in-out;
 }
 
@@ -769,10 +773,12 @@ h4 {
 
 .bgc-dark-slate-blue {
     background-color: #364577;
+    max-width: 100%;
 }
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    max-width: 100%;
 }
 
 .tc-white {
@@ -812,6 +818,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    max-width: 100%;
 }
 
 .bg-lines-h2-bg {
