@@ -809,11 +809,17 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    
+}
+.img-responsive{
+    width:400px;
+   margin:0 auto;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    
 }
 
 .avatar {
@@ -898,11 +904,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
