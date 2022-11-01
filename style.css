@@ -2,15 +2,30 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
+    
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.citation{
+    font-style: italic;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size:18px;
+    margin-bottom:25px;
+}
+.citationauthor{
+    font-weight: 200;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size:18px;
+    margin-bottom:25px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -29,8 +44,9 @@ a:hover {
 
 .bloc {
     width: 100%;
+    max-width:1800px;
     clear: both;
-    background: 50% 50% no-repeat;
+   margin: 0 auto;
     padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -66,10 +82,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .bg-repeat {
@@ -79,7 +95,14 @@ a:hover {
 .bg-t-edge {
     background: top no-repeat;
 }
-
+.textdescription{
+    max-width:60%;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size:20px;
+    margin-bottom:25px;
+}
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
@@ -118,12 +141,14 @@ a:hover {
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
-
+.homeunderline li {
+   color:#F3976C;
+}
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a ,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -140,7 +165,7 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
+.d-bloc a:hover ,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -285,6 +310,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    
 }
 
 .navbar {
@@ -303,6 +329,7 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
+    height:40px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -343,7 +370,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -372,7 +399,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color:red;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -404,7 +431,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+    background: none;
     display: block;
     padding: 14px 15px;
 }
@@ -431,13 +458,26 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px -5px 0 0;
     float: right;
 }
-
+.linkcontact{
+    color:black!important;
+    font-size:24px;
+    border:2px solid black;
+    background-color: transparent;
+   
+}
+.linkcontact:hover{
+    color:white!important;
+}
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+   
+}
+.mg-md, h2{
+    color:white;
 }
 
 .mg-lg {
@@ -461,7 +501,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
@@ -475,12 +515,10 @@ button {
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
-.icon-md {
-    font-size: 30px!important;
-}
+
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px;
 }
 
 .sm-shadow {
@@ -510,14 +548,14 @@ button {
     box-shadow: none;
 }
 
+
 .scrollToTop {
     width: 40px;
     height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
-    z-index: 500;
+    z-index:1 ;
     transition: all .3s ease-in-out;
 }
 
@@ -639,6 +677,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+
 h1,
 h2,
 h3,
@@ -651,7 +690,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -660,10 +699,14 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color:black;
 }
-
+.footertext{
+    color:black;
+}
 .hero-bloc-text-sub {
     font-size: 36px;
+    color:black;
 }
 
 .statement-bloc-text {
@@ -674,6 +717,7 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
+    
 }
 
 p {
@@ -681,8 +725,13 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
+   margin-left:15px;
+   margin-right:15px;
+   padding:15px;
+    color: black;
+    font-size:18px;
+    font-weight:600;
+
 }
 
 .h1 {
@@ -692,7 +741,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -700,8 +749,25 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    font-size:40px;
+    
+
+}
+.icon-md{
+    transition: 200ms ease;
+  color:black;
+
+}
+
+.icon-md:hover{
+    transform: scale(1.3);
+    transition: 200ms ease;
+    color:white;
 }
 
 h2 {
@@ -713,7 +779,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -723,11 +789,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -736,16 +802,24 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
+    font-size:15px;
+    font-weight:500;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    
+}
+.img-responsive{
+    width:400px;
+   margin:0 auto;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    
 }
 
 .avatar {
@@ -759,7 +833,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -768,49 +842,61 @@ h4 {
 
 .bgc-dark-slate-blue {
     background-color: #364577;
+    max-width: 100%;
 }
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    max-width: 100%;
 }
-
+.titleimage{
+    font-size:24px;
+}
 .tc-white {
-    color: #F3976C!important;
+    color:white;
+}
+.text-center{
+    font-size:18px;
+}
+.h1contactpage
+{
+    font-size:30px;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color:white!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+   
 }
 
 .bg-lines-h2-bg {
@@ -818,11 +904,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -902,8 +988,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -911,7 +997,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+        float: none;
     }
     .navbar.row {
         margin-left: 0;
@@ -936,7 +1022,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
