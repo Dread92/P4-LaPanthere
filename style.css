@@ -938,7 +938,8 @@ margin:0 auto
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
+        
     }
     .nav-center.navbar .nav {
         max-width: 100%
@@ -989,6 +990,7 @@ margin:0 auto
 }
 
 @media (max-width: 767px) {
+ 
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1011,24 +1013,29 @@ margin:0 auto
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none;
+        
     }
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+        
     }
     .site-navigation {
         position: inherit;
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        
     }
     .nav > li {
         margin-top: 0;
+        margin-right:0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
         width: 100%;
+        
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
