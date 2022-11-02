@@ -46,11 +46,11 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
-    max-width:1800px;
+    
+   
     clear: both;
    margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -959,7 +959,7 @@ margin:0 auto
 
 @media (max-width: 991px) {
     .container {
-        max-width: 95%;
+        max-width: 100%;
       
     }
  
