@@ -25,7 +25,7 @@
 <body>
 	
 <!-- Principal conteneur -->
-<main class="page-container">
+<div class="page-container">
     
 <!-- bloc-0 -->
 <header>
@@ -43,7 +43,7 @@
 				</div>
 				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 					
-					<ul class="site-navigation nav navbar-nav homeunderline" aria-label="menu , liens vers page d'accueil ou contact">
+					<ul class="site-navigation nav navbar-nav" aria-label="menu , liens vers page d'accueil ou contact">
 						<li>
 							<a href="index.html">Accueil</a>
 						</li>
@@ -60,6 +60,7 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
+<main>
 <section>
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
@@ -85,11 +86,12 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
+				<form id="form_1" >
 					<div class="form-group" >
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" required  />
 					</div>
 					<div class="form-group" >
 						<label>
@@ -111,7 +113,7 @@
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit"  >
 						Envoyer
 					</button>
-				
+				</form>
 			</div>
 			<div class="col-sm-6">
 				<p>
@@ -125,9 +127,10 @@
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<p class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></p>
 <!-- ScrollToTop Button END-->
 </main>
+</div>
 <footer>
 <!-- Footer - bloc-8 -->
 <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
